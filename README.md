@@ -39,7 +39,9 @@ Enter number: 7
 7 is a Prime Number
 
 Pattern:
+
 *
+
 **
 
 ---
