@@ -1,18 +1,16 @@
 # 🚀 Java Beginner Projects
 
-This repository contains **four beginner-friendly Java tasks** that cover the basics of programming, OOP, exception handling, and file handling.  
-Each task is implemented in a **single file** and can be run using any Java IDE (IntelliJ IDEA, Eclipse, VS Code) or the command line.
+This repository contains *four beginner-friendly Java tasks* that cover the basics of programming, OOP, exception handling, and file handling.  
+Each task is implemented in a *single file* and can be run using any Java IDE (IntelliJ IDEA, Eclipse, VS Code) or the command line.
 
 ---
 
 # 📂 Project Structure
-
-.
-        ├── Task1_Basics.java # Calculator, Prime Checker, Pattern Printing
-        ├── Task2_OOP.java # Classes, Inheritance, Polymorphism, Bank System
-        ├── Task3_Collections_Exceptions.java # Student Record Management, Exception Handling Calculator
-        ├── FileUtility.java # CLI File Handling Utility (Read, Write, Update)
-        ├── README.md # Documentation
+    ├── Task1_Basics.java # Calculator, Prime Checker, Pattern Printing
+    ├── Task2_OOP.java # Classes, Inheritance, Polymorphism, Bank System
+    ├── Task3_Collections_Exceptions.java # Student Record Management, Exception Handling Calculator
+    ├── FileUtility.java # CLI File Handling Utility (Read, Write, Update)
+    ├── README.md # Documentation
 
 ---
 
@@ -22,12 +20,12 @@ Each task is implemented in a **single file** and can be run using any Java IDE 
 - Java installation & setup (JDK + IDE)  
 - Basic syntax, variables, data types  
 - Operators, conditionals, loops  
-- Input/Output using `Scanner`  
+- Input/Output using Scanner  
 
 ## Features
-- **Calculator** (Addition, Subtraction, Multiplication, Division)  
-- **Prime Number Checker**  
-- **Pattern Printing** (Simple star patterns)  
+- *Calculator* (Addition, Subtraction, Multiplication, Division)  
+- *Prime Number Checker*  
+- *Pattern Printing* (Simple star patterns)  
 
 ## Sample Output
 Calculator:
@@ -44,9 +42,6 @@ Pattern:
 *
 **
 
-markdown
-Copy code
-
 ---
 
 # 📝 Task 2 – OOP (Animal Hierarchy & Bank System)
@@ -57,8 +52,8 @@ Copy code
 - Constructors & Method Overloading  
 
 ## Features
-- **Class Hierarchy Example** → `Animal → Dog/Cat`  
-- **Bank Account System**:
+- *Class Hierarchy Example* → Animal → Dog/Cat  
+- *Bank Account System*:
   - Deposit, Withdraw, Check Balance  
   - Proper use of encapsulation with private variables and getters/setters  
 
@@ -84,10 +79,10 @@ Copy code
 - try-catch-finally, throw/throws  
 
 ## Features
-- **Student Record Management**:
-  - Store student details in an `ArrayList`  
+- *Student Record Management*:
+  - Store student details in an ArrayList  
   - Display all student records  
-- **Calculator with Exception Handling**:
+- *Calculator with Exception Handling*:
   - Handles divide-by-zero  
   - Handles invalid inputs  
 
@@ -102,9 +97,6 @@ Enter second number: 0
 Operation: /
 ⚠ Error: Division by zero is not allowed.
 
-yaml
-Copy code
-
 ---
 
 # 📝 Task 4 – File Handling Utility
@@ -114,7 +106,7 @@ Copy code
 - Reading, Writing, Updating text files  
 
 ## Features
-- **CLI Menu** for file operations:
+- *CLI Menu* for file operations:
   - Write → Creates/overwrites file content  
   - Read → Displays file content  
   - Update → Appends new content to file  
@@ -122,13 +114,11 @@ Copy code
 ## Sample Output
 === FILE HANDLING UTILITY ===
 
-Write to File
+1.Write to File
+2.Read from File
+3.Update File
+4.Exit
 
-Read from File
-
-Update File
-
-Exit
 Choose an option: 1
 Enter file name: notes.txt
 Enter text to write (type 'exit' to finish):
@@ -143,18 +133,15 @@ Enter file name: notes.txt
 Hello Java
 This is a test file.
 
-yaml
-Copy code
-
 ---
 
-# ⚙️ Tools & Requirements
-- **JDK 8 or later**  
-- **IDE**: IntelliJ IDEA / Eclipse / VS Code  
+# ⚙ Tools & Requirements
+- *JDK 8 or later*  
+- *IDE*: IntelliJ IDEA / Eclipse / VS Code  
 - Command-line compilation supported:
   ```bash
   javac Task1_Basics.java
-  java Task1_Basics
+  java MainApp.java
 📌 Deliverables
 Java source files (.java)
 
