@@ -8,11 +8,11 @@ Each task is implemented in a **single file** and can be run using any Java IDE 
 # 📂 Project Structure
 
 .
-├── Task1_Basics.java # Calculator, Prime Checker, Pattern Printing
-├── Task2_OOP.java # Classes, Inheritance, Polymorphism, Bank System
-├── Task3_Collections_Exceptions.java # Student Record Management, Exception Handling Calculator
-├── FileUtility.java # CLI File Handling Utility (Read, Write, Update)
-├── README.md # Documentation
+        ├── Task1_Basics.java # Calculator, Prime Checker, Pattern Printing
+        ├── Task2_OOP.java # Classes, Inheritance, Polymorphism, Bank System
+        ├── Task3_Collections_Exceptions.java # Student Record Management, Exception Handling Calculator
+        ├── FileUtility.java # CLI File Handling Utility (Read, Write, Update)
+        ├── README.md # Documentation
 
 ---
 
